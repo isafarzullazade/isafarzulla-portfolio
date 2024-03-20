@@ -5,6 +5,16 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  if (section) {
+    window.scrollTo({
+      top: section.offsetTop,
+      behavior: "smooth",
+    });
+  }
+};
+
 const HeroSection = () => {
   return (
     <section className="lg:py-16">
@@ -33,14 +43,16 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          
+
           </p>
           <div>
             <Link
-              href="/contact"
+              href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              Hire Me
+              <button onClick={() => scrollToSection('contact')}
+                className="your-button-classes"
+              >Hire Me</button>
             </Link>
             <Link
               href="https://drive.google.com/uc?export=download&id=10tgNOEsAp_PVtlsulI2lKA0OV3rF6JsH"

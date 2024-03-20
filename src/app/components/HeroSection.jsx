@@ -50,9 +50,8 @@ const HeroSection = () => {
               href="https://isafarzulla.com/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
-              <button onClick={() => scrollToSection('contact')}
-                className="your-button-classes"
-              >Hire Me</button>
+            
+              <span>Hire Me</span>
             </Link>
             <Link
               href="https://drive.google.com/uc?export=download&id=10tgNOEsAp_PVtlsulI2lKA0OV3rF6JsH"

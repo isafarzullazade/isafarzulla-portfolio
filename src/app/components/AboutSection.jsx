@@ -28,17 +28,7 @@ const TAB_DATA = [
       </ul>
     
     ),
-  },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
-      </ul>
-    ),
-  },
+  }
 ];
 
 const AboutSection = () => {

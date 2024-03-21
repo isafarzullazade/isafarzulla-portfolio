@@ -23,6 +23,24 @@ const projectsData = [
     gitUrl: "https://destore.kz/",
     previewUrl: "https://destore.kz/",
   },
+  {
+    id: 3,
+    title: "Cafe-21",
+    description: "Restaurant Website",
+    image: "/images/projects/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://preeminent-sfogliatella-afe515.netlify.app/",
+    previewUrl: "https://preeminent-sfogliatella-afe515.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "South Bridge Electronics",
+    description: "E-Commerce Website",
+    image: "/images/projects/4.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://southbridgeelectronics.com/",
+    previewUrl: "https://southbridgeelectronics.com/",
+  },
   
 ];
 
